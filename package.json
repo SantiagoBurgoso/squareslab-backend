@@ -17,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/SantiagoBurgoso/squareslab-backend/issues"
   },
-  "homepage": "https://github.com/SantiagoBurgoso/squareslab-backend#readme"
+  "homepage": "https://github.com/SantiagoBurgoso/squareslab-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
