@@ -15,7 +15,7 @@ const registerValidation = [
 
     body("password")
     .isLength({ min: 8})
-    .withMessage("Password must contain at least 8 chatacters")
+    .withMessage("Password must contain at least 8 characters")
 ];
 
 const loginValidation = [
