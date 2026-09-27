@@ -13,7 +13,7 @@ This project will provide the backend for the Squareslab application.
 - Implement user registration and login.
 - Secure authentication using JWT.
 - Validate user information with express-validator.
-- Manage custom artwork orders.
+- Plan support for custom artwork orders.
 
 ## Technologies
 - Node.js
@@ -21,19 +21,19 @@ This project will provide the backend for the Squareslab application.
 - MongoDB
 - Mongoose
 - JWT
-- express-
+- express-validator
 
-## Instalation
+## Installation
 
 1. Clone the GitHub repository.
 2. Open the project folder in VS Code.
 3. Install the dependencies using npm install.
-4. create a .env file with the required evironment variables.
+4. create a .env file with the required environment variables.
 5. Start the server using node server.js
 
-## Evironment Variables
+## Environment Variables
 
-The apllication requires the following evironment variables:
+The application requires the following environment variables:
 
 - PORT: Server port.
 - MONGODB_URI: MongoDB Atlas connection string.
